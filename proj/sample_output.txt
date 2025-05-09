@@ -1,0 +1,127 @@
+PS C:\Users\lampe\Documents\cs356_COCO>  & 'C:\Users\lampe\Downloads\openjdk-24_windows-x64_bin\jdk-24\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\lampe\Documents\cs356_COCO\ProjectA\proj\target\classes' 'ProjectA.MinHeapTest' 
+Single threaded tests...
+
+Single-threaded tests...
+        Single-threaded tests passed.
+Testing corruption...
+        Corruption test passed.
+Toggling off rep invariant...
+        invariantCheckOffTest test passed.
+
+All single threaded tests passed.
+
+
+Multi-threaded test...
+
+Multi-threaded test passed. Total size: 9006
+
+All tests completed successfully.
+
+
+Done.
+PS C:\Users\lampe\Documents\cs356_COCO>  & 'C:\Users\lampe\Downloads\openjdk-24_windows-x64_bin\jdk-24\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\lampe\Documents\cs356_COCO\ProjectA\proj\target\classes' -ea 'ProjectA.MinHeapTest' 
+Single threaded tests...
+
+Single-threaded tests...
+        Single-threaded tests passed.
+Testing corruption...
+        Corruption test passed.
+Toggling off rep invariant...
+        invariantCheckOffTest test passed.
+
+All single threaded tests passed.
+
+
+Multi-threaded test...
+
+Multi-threaded test passed. Total size: 9006
+
+All tests completed successfully.
+
+
+Done.
+PS C:\Users\lampe\Documents\cs356_COCO>  & 'C:\Users\lampe\Downloads\openjdk-24_windows-x64_bin\jdk-24\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\lampe\Documents\cs356_COCO\ProjectA\proj\target\classes' -ea 'ProjectA.MinHeapTest'
+Single threaded tests...
+
+Single-threaded tests...
+        Single-threaded tests passed.
+Testing corruption...
+        Corruption test passed.
+Toggling off rep invariant...
+        invariantCheckOffTest test passed.
+
+All single threaded tests passed.
+
+
+Multi-threaded test...
+
+[WARNING] Using the unsafe version of MinHeap. This should almost always fail the multiThreadTests.    
+Multi-threaded test passed. Total size: 7816
+Exception in thread "main" java.lang.AssertionError: Invariant failed after multi-threaded operations
+        at ProjectA.MinHeapTest.multiThreadTests(MinHeapTest.java:95)
+        at ProjectA.MinHeapTest.main(MinHeapTest.java:158)
+PS C:\Users\lampe\Documents\cs356_COCO> ^C
+PS C:\Users\lampe\Documents\cs356_COCO>
+PS C:\Users\lampe\Documents\cs356_COCO>  c:; cd 'c:\Users\lampe\Documents\cs356_COCO'; & 'C:\Users\lampe\Downloads\openjdk-24_windows-x64_bin\jdk-24\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\lampe\Documents\cs356_COCO\ProjectA\proj\target\classes' 'ProjectA.MinHeapTest'
+Single threaded tests...
+
+Single-threaded tests...
+        Single-threaded tests passed.
+Testing corruption...
+        Corruption test passed.
+Toggling off rep invariant...
+        invariantCheckOffTest test passed.
+
+All single threaded tests passed.
+
+
+Multi-threaded test...
+
+[WARNING] Using the unsafe version of MinHeap. This should almost always fail the multiThreadTests.    
+Multi-threaded test passed. Total size: 7994
+
+All tests completed successfully.
+
+
+Done.
+PS C:\Users\lampe\Documents\cs356_COCO> ^C
+PS C:\Users\lampe\Documents\cs356_COCO>
+PS C:\Users\lampe\Documents\cs356_COCO>  c:; cd 'c:\Users\lampe\Documents\cs356_COCO'; & 'C:\Users\lampe\Downloads\openjdk-24_windows-x64_bin\jdk-24\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\lampe\Documents\cs356_COCO\ProjectA\proj\target\classes' 'ProjectA.MinHeapTest' 
+Single threaded tests...
+
+Single-threaded tests...
+        Single-threaded tests passed.
+Testing corruption...
+        Corruption test passed.
+Toggling off rep invariant...
+        invariantCheckOffTest test passed.
+
+All single threaded tests passed.
+
+
+Multi-threaded test...
+
+[WARNING] Using the unsafe version of MinHeap. This should almost always fail the multiThreadTests.    
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256       
+[Remove Thread] java.lang.ArrayIndexOutOfBoundsException: Index 257 out of bounds for length 256       
+[Check Thread] java.lang.ArrayIndexOutOfBoundsException: Index 256 out of bounds for length 256        
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256
+[Insert Thread] java.lang.ArrayIndexOutOfBoundsException: Index 258 out of bounds for length 256
+[Check Thread] java.lang.ArrayIndexOutOfBoundsException: Index 256 out of bounds for length 256
+[Remove Thread] java.lang.ArrayIndexOutOfBoundsException: Index 257 out of bounds for length 256
+[Remove Thread] java.lang.ArrayIndexOutOfBoundsException: Index 257 out of bounds for length 256
+[Check Thread] java.lang.ArrayIndexOutOfBoundsException: Index 256 out of bounds for length 256
+
+[FAILURE] Multi-threaded test did not pass.
+
+
+Done.
