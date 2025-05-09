@@ -59,7 +59,6 @@ The representation invariant for the Min-Heap is:
 
 ## Known Limitations
 
-* `removeMin()` uses global locking — fine-grained or lock-free designs may scale better
 * Unsafe version may not expose issues unless assertions are enabled via `-ea`
 
 ## Interesting Aspects
