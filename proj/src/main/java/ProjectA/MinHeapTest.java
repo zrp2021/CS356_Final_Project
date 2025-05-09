@@ -88,12 +88,10 @@ public class MinHeapTest {
         makeAndRunThreads(threads, inserter, inserter, inserter);
         makeAndRunThreads(threads, inserter, remover, checker);
 
-        if (passingMultiThreadTest.get()) {
-            System.out.println("Multi-threaded test passed. Total size: " + heap.size());
-        }
-
         assert heap.checkRepInvariant() : "Invariant failed after multi-threaded operations";
         assert passingMultiThreadTest.get() : "Failed Multi-threaded test (rep invariant broken or thread exception).";
+
+        System.out.println("Multi-threaded test passed. Total size: " + heap.size());
     }
 
     private static void makeAndRunThreads(Thread[] threads, Runnable r1, Runnable r2, Runnable r3) {
@@ -152,7 +150,7 @@ public class MinHeapTest {
 
         System.out.println("Multi-threaded test...\n");
         if (!USE_SAFE_VERSION) {
-            System.out.println("[WARNING] Using the unsafe version of MinHeap. This should almost always fail the multiThreadTests.");
+            System.out.println("[WARNING] Using the unsafe version of MinHeap. This should almost always fail the multiThreadTests.\n");
         }
 
         multiThreadTests(heap);
